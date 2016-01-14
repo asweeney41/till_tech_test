@@ -1,7 +1,5 @@
 describe('Order', function(){
-  var order;
-  var item;
-  var menu;
+  var order, cost, menu = {getMenu: {item: cost}}, item = {'food': 1};
 
   beforeEach(function(){
     order = new Order(menu);
@@ -16,7 +14,7 @@ describe('Order', function(){
   describe('Adding an item to the order', function(){
     it('succesfully adds a new item to the orderObject', function(){
       order.addItemToOrder(item);
-      expect(order.getOrderObject()).toEqual({item : 1});
+      expect(order.getOrderObject()).toEqual({'food' : 1});
     });
   });
 
