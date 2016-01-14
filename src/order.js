@@ -1,5 +1,6 @@
-var Order = function(){
+var Order = function(menu){
   this.orderObject = {};
+  this.menu = menu;
 };
 
 Order.prototype = {
