@@ -28,7 +28,7 @@ var Menu = function() {
 
 Menu.prototype = {
 
-  "getMenu": function() {
+  getMenu: function() {
     return this.menuObject;
   }
 };
