@@ -13,7 +13,7 @@ var app = express(); // 'app' var is usually used to denote the Express applicat
 
 
 
-app.use(express.static(__dirname)); //for serving the static assets.
+app.use(express.static(__dirname + '/src')); //for serving the static assets.
 //explained here: http://expressjs.com/starter/static-files.html
 //__dirname brings you the current path and then '/public' is appended to it. So
 //static files in this instance will be looked for in the /public folder. EDIT
