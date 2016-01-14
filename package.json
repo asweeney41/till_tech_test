@@ -1,0 +1,18 @@
+{
+  "name": "till_tech_test",
+  "version": "0.0.0",
+  "description": "A hipster coffee shop till",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwpmad/till_tech_test.git"
+  },
+  "author": "aaron and george",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gwpmad/till_tech_test/issues"
+  }
+}
